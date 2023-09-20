@@ -27,7 +27,9 @@ export default function EventTable() {
 
   return (
     <>
-      
+      <div className='flex justify-center'>
+        <h1 className=' text-black font-bold text-2xl'>Event Info</h1>
+      </div>
       <div className="mt-4 mb-10">
         <DatePicker className="max-w-sm mx-auto"  onValueChange={(value) => dateChange(value)}/>
       </div>
